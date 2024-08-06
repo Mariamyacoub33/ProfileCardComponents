@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "KumbhSans";
+  src: url(./assets/Fonts/KumbhSans-Regular.ttf);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "KumbhSans";
+  src: url(./assets/Fonts/KumbhSans-Bold.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "KumbhSans";
+  src: url(./assets/Fonts/KumbhSans-ExtraBold.ttf);
+  font-weight: bolder;
+}
+
+@font-face {
+  font-family: "KumbhSans";
+  src: url(./assets/Fonts/KumbhSans-Medium.ttf);
+font-weight: 800;
+}
+
+@font-face {
+  font-family: "KumbhSans";
+  src: url(./assets/Fonts/KumbhSans-ExtraLight.ttf);
+  font-weight: 600;
+}
+
+html{
+  width: 100%;
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0%;
+}
+
+#root{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:url("./assets/images/bg-pattern-top.svg"), url("./assets/images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-position-x: -100px ,750px;
+background-position-y: -300px ,350px ;
+  background-size: contain;
+  background-color: hsl(185, 75%, 39%);
+}
+
+@media screen and (max-width: 450px) {
+#root{
+  background-position-x: -160px ,100px;
+background-position-y: -50px ,650px ;
+}
+}
